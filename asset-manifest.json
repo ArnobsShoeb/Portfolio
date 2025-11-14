@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.46e08ad7.css",
+    "main.js": "/Portfolio/static/js/main.530ebc83.js",
+    "static/js/453.d7446e4a.chunk.js": "/Portfolio/static/js/453.d7446e4a.chunk.js",
+    "static/media/soccerbot.jpg": "/Portfolio/static/media/soccerbot.0818758d87e8b115b78d.jpg",
+    "static/media/IMG_8622.jpg": "/Portfolio/static/media/IMG_8622.92d9a424067aa55ac495.jpg",
+    "static/media/ic5.jpg": "/Portfolio/static/media/ic5.211be8fc2b8a7ecc0113.jpg",
+    "static/media/urc.jpg": "/Portfolio/static/media/urc.13d731120863f8d891f9.jpg",
+    "static/media/thesis.jpg": "/Portfolio/static/media/thesis.af53706a7686ae9fbe86.jpg",
+    "static/media/HarmoniasDemoRegular.ttf": "/Portfolio/static/media/HarmoniasDemoRegular.9e3897165e358dd5c950.ttf",
+    "static/media/Corporate S Bold.otf": "/Portfolio/static/media/Corporate S Bold.032ac4dd7eb078066f91.otf",
+    "static/media/Corporate S Light Regular.otf": "/Portfolio/static/media/Corporate S Light Regular.cbf000ec014e7011298a.otf",
+    "static/media/ccna.jpg": "/Portfolio/static/media/ccna.af2493598be40522df34.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.46e08ad7.css.map": "/Portfolio/static/css/main.46e08ad7.css.map",
+    "main.530ebc83.js.map": "/Portfolio/static/js/main.530ebc83.js.map",
+    "453.d7446e4a.chunk.js.map": "/Portfolio/static/js/453.d7446e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46e08ad7.css",
+    "static/js/main.530ebc83.js"
+  ]
+}
