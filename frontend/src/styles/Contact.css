@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Corporate S Light SC';
+  src: url('../assets/fonts/Corporate S Light Regular.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bodyy{
+    /* Use flexbox to force vertical stacking */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally if needed */
+    height: 400px;
+    background-color: #fbf9f1;
+    margin: 0px 200px 30px 200px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px; /* Add padding for spacing */
+}
+
+/* New style for the map wrapper */
+.map-container {
+    width: 100%; /* Ensures map takes full available width */
+    margin-bottom: 30px; /* Space between map and icons */
+    border-radius: 10px;
+    overflow: hidden;
+    border: #333;
+    border-style:double;
+}
+
+.map-container iframe {
+    /* Ensures the iframe is block-level and fills the container */
+    display: block;
+    width: 100%;
+}
+
+/* Social icons container - ensures icons are in the center */
+.contact-icons-container {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    gap: 30px; 
+    padding: 10px 0;
+}
+
+.contact-icons-container a {
+    color: #444; 
+    font-size: 3rem; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icons-container a:hover {
+    transform: scale(1.1);
+}
+
+.facebook-icon:hover { color: #1877F2; }
+.instagram-icon:hover { color: #E1306C; }
+.linkedin-icon:hover { color: #0077B5; }
+.github-icon:hover { color: #333; }

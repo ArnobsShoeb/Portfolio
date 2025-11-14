@@ -1,0 +1,94 @@
+.hero-section {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbf9f1;
+  color: #fff;
+  margin: 80px 200px 30px 200px;
+  border-radius: 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* space between image and text */
+  flex-wrap: wrap;
+}
+
+/* Profile circle */
+.profile-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #FFD700;
+  flex-shrink: 0;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text content */
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text .name {
+  color: #FFD700;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.hero-text h1.im {
+  font-size: 2.5rem;
+  color: #000; /* black text */
+  margin: 0; /* Remove default margin from H1 */
+}
+
+.hero-text .name {
+  color: #f49f00; /* golden name */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.hero-section .hero-text .lead {
+    color: #000;
+}
+.hero-section .hero-text .mail {
+    color: #000;
+}
+
+/* --- New Styles for Name and Icons --- */
+
+/* Container to align name and icons horizontally */
+.name-and-icons {
+    display: flex;
+    align-items: center; /* Vertically center the text and icons */
+    gap: 15px; /* Space between the name and the icon container */
+    margin-bottom: 5px; /* Adjust spacing above the lead paragraph */
+}
+
+/* Container for social icons */
+.social-icons {
+    display: flex;
+    gap: 10px; /* Space between the two icons */
+    font-size: 1.5rem; /* Adjust icon size */
+}
+
+/* Base style for icon links */
+.social-icons a {
+    color: #333; /* Default icon color (dark grey) */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Hover style for LinkedIn icon */
+.social-icons .icon-linkedin:hover {
+    color: #0077B5; /* LinkedIn primary color */
+}
+
+/* Hover style for GitHub icon */
+.social-icons .icon-github:hover {
+    color: #000; /* Black for GitHub */
+}

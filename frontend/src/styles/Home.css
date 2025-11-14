@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Corporate S Light SC';
+  src: url('../assets/fonts/Corporate S Light Regular.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+.bodyy{
+    height: 900px;
+    background-color: #fbf9f1;
+    margin: 0px 200px 30px 200px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.bodyy .boddy {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    font-family:'Corporate S Light SC';
+    font-size: 40px;
+    text-align: justify;
+    
+}
