@@ -252,65 +252,72 @@ Detecting Vulnerabilities and Mitigating BadUSB Attacks
                 <b>CGPA:</b> 3.08/4.00
               </p>
               <p className="timeline-text">Notable Courses:</p>
-              <table border="1">
-  <tbody className="timeline-text">
-    <tr>
-      <td>CSE470 - <b>Software Engineering</b></td>
-      <td>4.00/4.00</td>
-      <td>CSE472 - <b>System Analysis and Design</b></td>
-      <td>4.00/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE490 - <b>Computer Security</b></td>
-      <td>4.00/4.00</td>
-      <td>CSE461 - <b>Intro to Robotics</b></td>
-      <td>4.00/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE350 - <b>Digital Electronics and Pulse Techniques</b></td>
-      <td>4.00/4.00</td>
-      <td>PHY111 - <b>Principles of Physics</b></td>
-      <td>4.00/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE110 - <b>Python</b></td>
-      <td>3.70/4.00</td>
-      <td>CSE370 - <b>Database System</b></td>
-      <td>3.70/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE421 - <b>Computer Networks</b></td>
-      <td>3.70/4.00</td>
-      <td>CSE321 - <b>Operating System</b></td>
-      <td>3.70/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE341 - <b>Microprocessor</b></td>
-      <td>3.70/4.00</td>
-      <td>CSE361 - <b>Computer Interfacing</b></td>
-      <td>3.70/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE341 - <b>Automata & Computability</b></td>
-      <td>3.70/4.00</td>
-      <td>MAT110 - <b>Mathematics - I</b></td>
-      <td>3.70/4.00</td>
-    </tr>
-
-    <tr>
-      <td>CSE447 - <b>Cryptography and Cryptoanalysis</b></td>
-      <td>3.00/4.00</td>
-      <td>CSE340 - <b>Computer Architecture</b></td>
-      <td>3.00/4.00</td>
-    </tr>
-  </tbody>
-</table>
+              <div className="courses-grid">
+                <div className="course-item">
+                  <div className="course-name">CSE470 - <strong>Software Engineering</strong></div>
+                  <div className="course-grade">4.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE472 - <strong>System Analysis and Design</strong></div>
+                  <div className="course-grade">4.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE490 - <strong>Computer Security</strong></div>
+                  <div className="course-grade">4.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE461 - <strong>Intro to Robotics</strong></div>
+                  <div className="course-grade">4.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE350 - <strong>Digital Electronics and Pulse Techniques</strong></div>
+                  <div className="course-grade">4.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">PHY111 - <strong>Principles of Physics</strong></div>
+                  <div className="course-grade">4.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE110 - <strong>Python</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE370 - <strong>Database System</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE421 - <strong>Computer Networks</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE321 - <strong>Operating System</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE341 - <strong>Microprocessor</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE361 - <strong>Computer Interfacing</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE341 - <strong>Automata & Computability</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">MAT110 - <strong>Mathematics - I</strong></div>
+                  <div className="course-grade">3.70/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE447 - <strong>Cryptography and Cryptoanalysis</strong></div>
+                  <div className="course-grade">3.00/4.00</div>
+                </div>
+                <div className="course-item">
+                  <div className="course-name">CSE340 - <strong>Computer Architecture</strong></div>
+                  <div className="course-grade">3.00/4.00</div>
+                </div>
+              </div>
 
             </li>
           </ol>
