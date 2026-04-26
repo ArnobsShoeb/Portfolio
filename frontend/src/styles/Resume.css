@@ -188,6 +188,47 @@ table td {
 
   .left-order img {
     margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  .bodddy {
+    margin: 0px 20px 0px 20px !important;
+    padding: 30px 20px;
+  }
+  .experience-section {
+    margin-left: 20px;
+  }
+  .position-header h4 {
+    font-size: 14px;
+  }
+  .experience-entry strong {
+    font-size: 15px;
+  }
+  .experience-entry p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .left-order img {
+    max-width: 100%;
+    height: auto;
+  }
+  .bodddy {
+    margin: 0px 10px 0px 10px !important;
+    padding: 20px 10px;
+  }
+  .experience-section {
+    margin-left: 15px;
+  }
+  .position-header h4 {
+    font-size: 13px;
+  }
+  .experience-entry strong {
+    font-size: 14px;
+  }
+  .experience-entry p {
+    font-size: 13px;
   }
 }
 .bullet-list {
@@ -256,4 +297,42 @@ table td {
   width: 100%;
   height: 100%;
   object-fit: cover; /* makes all images perfectly square */
+}
+
+/* Responsive styles for achievements */
+@media (max-width: 768px) {
+  .achievement-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .achievement-text {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+  .achievement-img-box {
+    width: 200px;
+    height: 200px;
+  }
+  .achievement-title {
+    font-size: 16px;
+  }
+  .achievement-sub {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievement-item {
+    padding: 10px;
+  }
+  .achievement-img-box {
+    width: 150px;
+    height: 150px;
+  }
+  .achievement-title {
+    font-size: 14px;
+  }
+  .achievement-sub {
+    font-size: 13px;
+  }
 }

@@ -39,7 +39,7 @@ export default function Header() {
           {/* End of new div */}
 
           <p className="lead">
-            Software Developer <b>-</b> Network Engineer <b>-</b> Cybersecurity Enthusiast <b>-</b> Robotics Innovator
+            Network and Cybersecurity Enthusiast <b>-</b> Software Developer
           </p>
           <p className="mail">
             📧 arnobshoeb@gmail.com

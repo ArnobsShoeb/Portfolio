@@ -73,3 +73,45 @@
   color: black !important;
   
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .custom-navbar {
+        margin: 80px 20px 0px 20px;
+    }
+    .custom-navbar .head {
+        margin-left: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: large;
+    }
+    .custom-navbar .navbar-brand {
+        margin-left: 10px;
+        font-size: large;
+    }
+    .custom-navbar .nav-link {
+        font-size: 0.9rem;
+    }
+    .custom-navbar .nav-link:hover {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-navbar {
+        margin: 60px 10px 0px 10px;
+    }
+    .custom-navbar .head {
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: medium;
+    }
+    .custom-navbar .navbar-brand {
+        font-size: medium;
+    }
+    .custom-navbar .nav-link {
+        font-size: 0.8rem;
+    }
+}

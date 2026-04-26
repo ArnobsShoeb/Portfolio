@@ -20,3 +20,30 @@
     text-align: justify;
     
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .bodyy {
+        height: auto;
+        margin: 0px 20px 30px 20px;
+        padding: 20px;
+    }
+    .bodyy .boddy {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 20px;
+        font-size: 24px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .bodyy {
+        margin: 0px 10px 20px 10px;
+        padding: 15px;
+    }
+    .bodyy .boddy {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+}

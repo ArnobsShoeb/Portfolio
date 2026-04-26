@@ -92,3 +92,53 @@
 .social-icons .icon-github:hover {
     color: #000; /* Black for GitHub */
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero-section {
+        height: auto;
+        margin: 80px 20px 30px 20px;
+        padding: 20px;
+    }
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    .profile-circle {
+        width: 120px;
+        height: 120px;
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    .hero-text h1.im {
+        font-size: 2rem;
+    }
+    .name-and-icons {
+        justify-content: center;
+    }
+    .social-icons {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        margin: 60px 10px 20px 10px;
+        padding: 15px;
+    }
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+    .hero-text h1.im {
+        font-size: 1.5rem;
+    }
+    .profile-circle {
+        width: 100px;
+        height: 100px;
+    }
+    .social-icons {
+        font-size: 1rem;
+    }
+}
